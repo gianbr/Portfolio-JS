@@ -146,7 +146,6 @@ body{
 #aboutMe{
     background-image: url(../assets/bg-about.jpg);
     background-repeat: no-repeat;
-    min-height: 100vh;
     margin-top: 150px;
 }
 
@@ -178,7 +177,7 @@ body{
 
         .drawing {
             width: 900px;
-            height: 600px;
+            height: 570px;
         }
     }
 
@@ -193,11 +192,12 @@ body{
 }
 
 .aboutMeBox{
-    margin: 155px 65px;
+    margin: 100px 65px;
     width: 700px;
     height: 380px;
     border: 2px solid $blue;
     padding: 55px;
+    padding-bottom: 100px;
     position: relative;
     font-size: 24px;
 
